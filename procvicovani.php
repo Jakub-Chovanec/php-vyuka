@@ -30,3 +30,20 @@ if ($body >=90 && $body<=100) {
 }else if ($body <=24){
     echo "Vase znamka je: 5\n";
 }
+
+
+// TODO: Vypiš čísla od 10 do 1 (odpočítávání)
+// TODO: Vypiš malou násobilku čísla 7 (7x1=7, 7x2=14, ...)
+echo "\n\n";
+for ($i = 0; $i <= 10; $i++) {
+    echo "{$i} ";
+}
+
+echo "\n\n";
+echo "Malá násobilka cisla 7:\n";
+
+$pocet = 7;
+while ($pocet == 70) {
+    echo "{$pocet}\n";
+    $pocet + 7;
+}
