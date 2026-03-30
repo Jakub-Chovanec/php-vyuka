@@ -30,33 +30,55 @@ declare(strict_types=1);
  * 13. Vypište z prvního pole všechna sudá a z druhého pole všechna lichá čísla.
  */
 
-
-$pole = [3, 5, 6, 7, 8, 9, 11, 22, 4,];
+$pole = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 $pocet = 0;
 
-$cislo = (int) readline("Zadej poslední cislo pole: ");
-$pole [] = $cislo;
+//echo "Prvek pole:\n";
+//$pole[] = readline();
 
-echo "Počet prvku v poli je: ". count($pole);
+echo "pocet prvku v poli je: " . count($pole);
+echo "\n";
 
-for (count($pole) - 1; $i >= 0; $i--) {
-    echo "$pole [$i] ." ;
+for ($i=9; $i>=0; $i--){
+    echo $pole[$i]. " ";
 }
 
-if ($pole[i] == 1){
-    $pocet++;
-}
-echo "pocet 1 v poli je: $pocet\n";
-
-echo "Maximum v poli je: " . max($pole) . "\n";
-
-for ($i = 0; $i < count($pole); $i++) {
-    if ($pole[$i] % 2 == 0) {
-        $pole[$i]= $pole[i] + 10;
+for ($i=0; $i<=9; $i++){
+    if ($pole[$i] == 1){
+        $pocet++;
     }
 }
+echo "\n";
+echo "pocet 1 v poli je: $pocet";
+echo "\n";
 
-foreach ($pole as $prvek) {
-    echo $prvek . " ";
+echo "Maximum je: ". max($pole);
+echo "\n";
+
+for ($i=0; $i<=9; $i++){
+    if ($pole[$i] % 2 === 0){
+        $pole[$i]= $pole[$i] + 10;
+    }
+}
+echo "Sudé císla zvětšené o 10: ";
+foreach ($pole as $pole2){
+    echo $pole2. " ";
+}
+echo"\n\n\n";
+
+$cisla=[];
+for ($i=0; $i<=4; $i++){
+    $cisla[] = readline("Zadejte 5 prvků pole (-1 se zadávání ukončí): ");
+
+    if ($cisla[$i] === -1){
+        break;
+    }
+
 }
 echo "\n";
+
+$pocet = count($pole[$i]);
+$pocet1 = count($cisla[$i]);
+$kolik = $pocet - $pocet1;
+
+echo "První pole je větší o ". $kolik. "poctu prvku";
