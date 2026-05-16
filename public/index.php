@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Výuka</title>
+<<<<<<< HEAD
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -26,6 +27,9 @@
             border-radius: 3px;
         }
     </style>
+=======
+    <link rel="stylesheet" href="style.css">
+>>>>>>> upstream/master
 </head>
 <body>
     <h1>PHP Výuka</h1>
@@ -45,6 +49,20 @@
         <h2>Příklady</h2>
         <ul>
             <li><a href="formular.php">Formulář</a></li>
+<<<<<<< HEAD
+=======
+            <li><a href="09-formulare-priklad.php">Lekce 9: Formuláře - Příklad</a></li>
+            <li><a href="09-formulare-zadani.php">Lekce 9: Formuláře - Zadání</a></li>
+            <li><a href="10-formular-akce-priklad.php">Lekce 10: Formulář s akcí na jinou stránku - Příklad</a></li>
+            <li><a href="10-formular-akce-zadani.php">Lekce 10: Formulář s akcí na jinou stránku - Zadání</a></li>
+            <li><a href="11a-registrace-priklad.php">Lekce 11a: Registrační formulář s validací - Příklad</a></li>
+            <li><a href="11a-registrace-zadani.php">Lekce 11a: Editace profilu - Zadání</a></li>
+            <li><a href="11b-objednavka-priklad.php">Lekce 11b: Objednávkový formulář - Příklad</a></li>
+            <li><a href="11b-objednavka-zadani.php">Lekce 11b: Kalkulačka školního výletu - Zadání</a></li>
+            <li><a href="11c-kviz-zadani.php">Lekce 11c: Kvíz s vyhodnocením - Zadání</a></li>
+            <li><a href="12-soubory-priklad.php">Lekce 12: Práce se soubory (návštěvní kniha) - Příklad</a></li>
+            <li><a href="12-soubory-zadani.php">Lekce 12: Kontaktní formulář s CSV - Zadání</a></li>
+>>>>>>> upstream/master
         </ul>
     </div>
 

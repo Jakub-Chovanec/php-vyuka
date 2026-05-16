@@ -98,6 +98,7 @@ FUNKCE – DOPLŇTE ŘEŠENÍ
 
 function getTriangleAngleType(float $a, float $b, float $c): string
 {
+<<<<<<< HEAD
 	$sides = [$a, $b, $c];
 
     sort($sides);
@@ -141,6 +142,12 @@ $type = getTriangleAngleType($a, $b, $c);
 echo "Trojúhelník je: $type";
 
 
+=======
+	// TODO: doplňte řešení
+}
+
+
+>>>>>>> upstream/master
 function getHeightToA(float $a, float $content): float
 {
 	// TODO: doplňte řešení
@@ -156,4 +163,9 @@ function getAngles(float $a, float $b, float $c): array
 function getMinMaxSide(float $a, float $b, float $c): array
 {
 	// TODO: doplňte řešení
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> upstream/master

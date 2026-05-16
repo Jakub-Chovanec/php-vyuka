@@ -41,5 +41,8 @@ echo 'Typ $jeStudent: ' . gettype($jeStudent) . "\n";
 echo "\n--- Tvůj úkol ---\n";
 // TODO: Vytvoř proměnné pro svého oblíbeného hrdinu (jméno, síla, zdraví)
 //       a vypiš je na obrazovku
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> upstream/master

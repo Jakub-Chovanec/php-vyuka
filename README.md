@@ -57,9 +57,20 @@ git push
 
 ```
 lekce/          - PHP skripty pro procvičování (spouští se v terminálu)
+<<<<<<< HEAD
 public/         - webové stránky (spouští se přes PHP server)
 ```
 
+=======
+public/         - webové stránky z lekcí (spouští se přes PHP server)
+projekt/        - e-shop projekt (2. fáze – PHP + SQLite)
+```
+
+## Projekt – E-shop (2. fáze)
+
+Složka `projekt/` obsahuje připravený základ pro druhou fázi projektu e-shopu (PHP + SQLite databáze). Kompletní návod k použití najdete v **[projekt/README.md](projekt/README.md)**.
+
+>>>>>>> upstream/master
 ## Postup lekcí
 
 | Lekce | Téma | Spuštění |
@@ -69,6 +80,19 @@ public/         - webové stránky (spouští se přes PHP server)
 | 03 | Cykly (for, while, foreach) | `php lekce/03-cykly.php` |
 | 04 | Pole (arrays) | `php lekce/04-pole.php` |
 | 05 | Funkce | `php lekce/05-funkce.php` |
+<<<<<<< HEAD
+=======
+| 06 | Procvičování – funkce, podmínky, cykly | `php lekce/06-cviceni.php` |
+| 06b | Procvičování – pole, řetězce, kombinace | `php lekce/06-cviceni2.php` |
+| 07 | Matematika | `php lekce/07-matematika.php` |
+| 08 | Pole – pokročilé | `php lekce/08-pole2.php` |
+| 09 | Opakování – cykly, podmínky, pole | `php lekce/09-opakovani.php` |
+| 09w | Formuláře (web) | webový server → `/09-formulare-zadani.php` |
+| 10w | Formulář s akcí na jinou stránku (web) | webový server → `/10-formular-akce-zadani.php` |
+| 11aw | Registrace + editace profilu (web) | webový server → `/11a-registrace-zadani.php` |
+| 11bw | Objednávka + kalkulačka výletu (web) | webový server → `/11b-objednavka-zadani.php` |
+| 11cw | Kvíz s vyhodnocením (web) | webový server → `/11c-kviz-zadani.php` |
+>>>>>>> upstream/master
 
 Každá lekce obsahuje příklady a na konci **úkol k vypracování** (hledej `// TODO:`).
 

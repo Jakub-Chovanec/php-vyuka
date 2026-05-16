@@ -10,3 +10,11 @@ Thumbs.db
 # PHP
 vendor/
 composer.lock
+<<<<<<< HEAD
+=======
+
+# SQLite
+*.db
+*.db-wal
+*.db-shm
+>>>>>>> upstream/master

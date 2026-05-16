@@ -25,6 +25,7 @@ Vraťte true, pokud je číslo sudé.
 Vraťte false, pokud je liché.
 Použijte operátor %.
 */
+<<<<<<< HEAD
 
 $cislo = 9;
 function jeSude(int $cislo): bool
@@ -32,6 +33,12 @@ function jeSude(int $cislo): bool
     return $cislo % 2 === 0;
 }
 echo "Test 1: je sude cislo {$cislo} => " . (jeSude($cislo) ? 'true':'false'). "\n";
+=======
+function jeSude(int $cislo): bool
+{
+	// TODO: Doplňte řešení
+}
+>>>>>>> upstream/master
 
 
 /*
@@ -44,6 +51,7 @@ Operace může být:
 Pokud dojde k dělení nulou,
 vraťte text: "Nelze dělit nulou"
 */
+<<<<<<< HEAD
 
 function kalkulacka(float $a, float $b, string $operace): float|string
 {
@@ -71,6 +79,13 @@ echo kalkulacka(10, 5, "+");
 echo "\n";
 echo kalkulacka(10, 0, "/");
 
+=======
+function kalkulacka(float $a, float $b, string $operace): float|string
+{
+	// TODO: Doplňte řešení
+}
+
+>>>>>>> upstream/master
 
 /*
 ----------------------------------------
@@ -81,6 +96,7 @@ Nepoužívejte funkci max().
 */
 function nejvetsi(int $a, int $b, int $c): int
 {
+<<<<<<< HEAD
 	$nejvetsi = $a;
 
     if ($b > $nejvetsi) {
@@ -95,6 +111,10 @@ function nejvetsi(int $a, int $b, int $c): int
 }
 echo "\n";
 echo nejvetsi(5, 3, 8);
+=======
+	// TODO: Doplňte řešení
+}
+>>>>>>> upstream/master
 
 
 /*
@@ -106,6 +126,7 @@ pomocí cyklu.
 */
 function soucetDoN(int $n): int
 {
+<<<<<<< HEAD
 	$soucet = 0;
     
     for ($i = 1; $i <= $n; $i++) {
@@ -115,6 +136,10 @@ function soucetDoN(int $n): int
 }
 echo "\n";
 echo soucetDoN(20);
+=======
+	// TODO: Doplňte řešení
+}
+>>>>>>> upstream/master
 
 
 /*
@@ -129,6 +154,7 @@ Ošetřete záporné číslo.
 */
 function faktorial(int $n): int
 {
+<<<<<<< HEAD
 	$vysledek = 1;
     
     for ($i = 1; $i <= $n; $i++){
@@ -138,6 +164,10 @@ function faktorial(int $n): int
 }
 echo "\n";
 echo faktorial(5);
+=======
+	// TODO: Doplňte řešení
+}
+>>>>>>> upstream/master
 
 
 /*
@@ -149,6 +179,7 @@ Použijte foreach.
 */
 function pocetSudyChCisel(array $pole): int
 {
+<<<<<<< HEAD
 	$pocet = 0;
 
     foreach ($pole as $cislo) {
@@ -161,6 +192,10 @@ function pocetSudyChCisel(array $pole): int
 $pole = [1, 2, 3, 4, 5, 6];
 echo "\n";
 echo pocetSudyChCisel($pole);
+=======
+	// TODO: Doplňte řešení
+}
+>>>>>>> upstream/master
 
 
 /*
@@ -193,6 +228,7 @@ Příklad pro 5:
 */
 function nasobilka(int $cislo): void
 {
+<<<<<<< HEAD
     $cislo = 5;
     for ($i = 1; $i <= 10; $i++) {
         echo $cislo . "x" . $i . "=" . ($cislo * $i) ;
@@ -201,6 +237,10 @@ function nasobilka(int $cislo): void
 }
 echo "\n";
 nasobilka(5);
+=======
+	// TODO: Doplňte řešení
+}
+>>>>>>> upstream/master
 
 
 /*

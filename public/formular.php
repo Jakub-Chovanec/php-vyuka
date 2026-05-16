@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulář - PHP Výuka</title>
+<<<<<<< HEAD
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -46,6 +47,9 @@
         }
         a { color: #4F5B93; }
     </style>
+=======
+    <link rel="stylesheet" href="style.css">
+>>>>>>> upstream/master
 </head>
 <body>
     <h1>Formulář</h1>
